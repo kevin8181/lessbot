@@ -6,7 +6,7 @@ import { SlashCommand } from "../index.js";
 export default {
 	data: new SlashCommandBuilder()
 		.setName("ask")
-		.setDescription("Ask AI a question.")
+		.setDescription("Ask AI a question")
 		.addStringOption((option) =>
 			option
 				.setName("prompt")
