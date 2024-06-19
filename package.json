@@ -1,0 +1,25 @@
+{
+	"name": "lessbot",
+	"main": "dist/bot.js",
+	"source": "src/bot.ts",
+	"scripts": {
+		"start": "node .",
+		"dev": "tsc && node .",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kevin8181/lessbot.git"
+	},
+	"dependencies": {
+		"@types/node": "^20.14.6",
+		"discord.js": "^14.15.3",
+		"envalid": "^8.0.0",
+		"openai": "^4.52.0"
+	},
+	"devDependencies": {
+		"dotenv": "^16.4.5",
+		"typescript": "^5.4.5"
+	},
+	"type": "module"
+}
